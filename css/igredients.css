@@ -1,0 +1,39 @@
+.igredients{
+
+}
+
+.ingredients__title{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 130%;
+    margin-bottom: 4px;
+}
+.igredients__list{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 130%;
+    margin-bottom: 4px;
+}
+.igredients__items{
+    margin-bottom: 2px;
+}
+
+.igredients__items:last-child{
+    margin-bottom: 0;
+}
+
+.igredients__calories{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 130%;
+    color: #B1B1B1;
+}
+
+@media (min-width:1024px){
+    .ingredients__title,
+    .igredients__list,
+    .igredients__items,
+    .igredients__calories{
+        font-size: 12px;
+    }
+}
